@@ -8,12 +8,10 @@ from main import (
     find_max,
     count_vowels
 )
-
-assert pow_list([1, 2, 3]) == [1, 4, 9], (
-    "Implement a function that takes a list "
-    "and returns another list with each value raised "
-    "to the power of 2"
-)
+assert pow_list([1, 2, 3]) == [1, 4, 9]
+    #"Implement a function that takes a list "
+    #"and returns another list with each value raised "
+   # "to the power of 2"
 
 assert count_words("hello world"), (
     "Implement a trivial function that counts the "
